@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+<script>
+    function moveToUrl(id_js) {
+        window.location.href = id_js
+    }
+</script>
+
+<div class="container">
+    <div id="card">
+        <div class="row">
+
+            <div id="rozetka-colomn">
+
+                <div id="header-rozetka" onclick="moveToUrl('https://rozetka.com.ua/')">
+                    <img id="rozetka-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/ROZETKA-Logo-L3-B-RGB.png/1200px-ROZETKA-Logo-L3-B-RGB.png" alt="">
+                </div>
+
+                {% for item in rozetka %}
+                <div id="item-rozetka-table" onclick="moveToUrl('{{ item.link }}')">
+                    <p>{{ item.title }}</p>
+                    <p><h5>{{ item.price }} ₴</h5></p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div id="foxtrot-colomn">
+
+                <div id="header-foxtrot" onclick="moveToUrl('https://www.foxtrot.com.ua/')">
+                    <img id="foxtrot-logo" src="https://www.foxtrot.com.ua/dist/images/logo-white.svg" alt="">
+                </div>
+
+                {% for item in foxtrot %}
+                <div id="item-foxtrot-table" onclick="moveToUrl('{{ item.link }}')">
+                    <p>{{ item.title }}</p>
+                    <p><h5>{{ item.price }} ₴</h5></p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div id="allo-colomn">
+
+                <div id="header-allo" onclick="moveToUrl('https://allo.ua/ru/')">
+                    <img id="allo-logo" src="https://i.allo.ua/media/theme/default/Logo_Allo_white_2.svg" alt="">
+                </div>
+
+                {% for item in allo %}
+                <div id="item-allo-table" onclick="moveToUrl('{{ item.link }}')">
+                    <p>{{ item.title }}</p>
+                    <p><h5>{{ item.price }} ₴</h5></p>
+                </div>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,138 @@
+body{
+    background-color: #f2f3f5
+}
+
+#rozetka-colomn{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#foxtrot-colomn{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#allo-colomn{
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.navbar{
+    margin-bottom: 50px;
+    background-color: #303030;
+    height: 75px;
+
+}
+
+.navbar-brand{
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-rozetka{
+    background: #05bc52;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#rozetka-logo{
+    width: 300px;
+    padding: 15px;
+}
+
+#rozetka-colomn{
+    background-color: #ffffff;
+    padding: 0px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+}
+
+#item-rozetka-table{
+    width: 100%;
+    background-color: #221f1f;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.15s ease-out;
+}
+
+#item-rozetka-table:hover{
+    background-color: #ffffff;
+    color: #221f1f;
+}
+
+#header-foxtrot{
+    background: #e95d2a;
+    text-align: center;
+    cursor: pointer;
+}
+
+#foxtrot-logo{
+    width: 300px;
+    padding: 15px;
+}
+#item-foxtrot-table{
+    width: 100%;
+    background-color: #dd5828;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.15s ease-out;
+
+}
+
+#item-foxtrot-table:hover{
+    background-color: #ffffff;
+    color: #dd5828;
+}
+
+#foxtrot-colomn{
+    background-color: #ffffff;
+    padding: 0px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+}
+
+
+#header-allo{
+    background: #303030;
+    text-align: center;
+    cursor: pointer;
+}
+
+#allo-logo{
+    width: 300px;
+    padding: 15px;
+
+}
+
+#item-allo-table{
+    width: 100%;
+    background: #e31837;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    -webkit-transition: 0.15s ease-out;
+}
+
+#item-allo-table:hover{
+    background: #ffffff;
+    color: #e31837;
+}
+
+#allo-colomn{
+    background-color: #ffffff;
+    padding: 0px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+    -webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.54);
+}
