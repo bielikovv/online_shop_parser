@@ -1,1 +1,1 @@
-# online_shop_parser
+You need to run parser.py
