@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'actual_info_parser',
-        'USER': 'root',
-        'PASSWORD': 'vitrum15',
+        'USER': 'empty',
+        'PASSWORD': 'empty',
         'HOST': 'localhost',
     }
 }
